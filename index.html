@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- En tête de page --> 
+    <meta charset="utf-8" />
+
+    <!--[if lt IE 9]>
+    <script
+    src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+      <link rel="stylesheet" href="index.css" />
+
+       <title>Google</title>
+
+  </head>
+
+    <body>
+      <header>
+        <div id="EnTete">
+              <div class="element1"> <a href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%26ogbl%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</a>
+              </div>
+              <div class="element2"> <a href="https://www.google.fr/imghp?hl=fr&ogbl">Images</a>
+              </div>
+              <div class="element3"> Applications google
+              </div>
+              <div class="element4"> <a href="https://accounts.google.com/signin/v2/identifier?hl=fr&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Connection</a>
+              </div>  
+        </div>
+      </header>
+
+        <div id="Page">
+          <div class="Image1"><img src="Images/Logo.png" alt="Logo" />
+          </div>
+          <div class="Barre">
+            <input type="search" id="Recherche" name="q">
+          </div>
+        </div>
+
+        <div id="Elements">
+          <div class="RechercheGoogle"> <a href="https://www.google.com/">Recherche Google</a>
+          </div>
+          <div class="Chance"><a href="https://www.google.com/search?q=google+doodles&csf=b&ct=ifl&cad=2:doodley&ei=NQLbYI3TDcKOlwSl64tQ&ved=0ahUKEwjNwcLz3LzxAhVCx4UKHaX1AgoQnRsIDA&rct=j">J'ai de la chance</a>
+          </div>
+        </div> 
+
+      <footer>
+        <div id="Footer1">
+          <div class="France"> France</div>
+        </div>
+          <hr><br/>
+              
+        <div id="Footer2">
+          <div class="Foot"><a href="https://about.google/?utm_source=google-FR&utm_medium=referral&utm_campaign=hp-footer&fg=1">A propos</a>
+          </div>
+          <div class="Foot"><a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicité</a>
+          </div>
+          <div class="Foot"><a href="https://smallbusiness.withgoogle.com/intl/fr_fr/?subid=fr-fr-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=fr-fr-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u">Entreprise</a>
+          </div>
+          <div class="Foot"><a href="https://www.google.com/search/howsearchworks/?fg=1">Comment fonctionne la recherche Google ?</a>
+          </div>
+          <div class="Foot1"><img src="Images/Feuille.png" alt="Feuille"/><a href="https://sustainability.google/intl/fr/commitments-europe/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">Neutre en carbone depuis 2007</a>
+          </div>
+          <div class="Foot"><a href="https://support.google.com/websearch?p=fr_consumer_info&hl=fr&fg=1">Infos consommateurs</a>
+          </div>
+          <div class="Foot"><a href="https://policies.google.com/privacy?hl=fr&fg=1">Confidentialité</a>
+          </div>
+          <div class="Foot"><a href="https://policies.google.com/terms?hl=fr&fg=1">Conditions</a>
+          </div>
+          <div class="Foot2"> 
+            <form method="post" action="traitement.php">
+              <p>
+                <label for="param"></label><br />
+                 <select name="param" id="param">
+                    <option value="param1">Paramètre de recherche</option>
+                    <option value="param2">Recherche avancée</option>
+                    <option value="param3">Vos données dans la recherche Google</option>
+                    <option value="param4">Historique des recherches </option>
+                    <option value="param5">Aide sur la recherche</option>
+                    <option value="param6">Envoyer des commentaires</option>
+                  </select>
+              </p>
+            </form>
+          </div>
+        </div>
+      </footer>
+    </body>
+  </html>
+

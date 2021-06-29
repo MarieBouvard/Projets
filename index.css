@@ -1,0 +1,206 @@
+a /* Liens par défaut ( non survolés ) */
+{
+	text-decoration: none;
+	color: black;
+}
+
+
+a:hover /* Liens au survol */
+{	
+	text-decoration: underline;
+}
+
+
+header
+{
+	margin-top: 20px;
+}
+
+
+footer
+{
+	background-color: rgb(246, 245, 246);
+	color: rgb(143, 143, 143);
+	font-family: arial, sans-serif;
+	font-size: 0.8em;
+}
+
+
+#EnTete
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-right: 10px;
+	height: 90px;
+}
+
+
+.element1
+{
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+
+.element2
+{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+.element3
+{
+	margin-right: 10px;
+	margin-left:  10px;
+}
+
+
+.element4
+{
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: -10px;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	border-color: rgb(246, 245, 246);
+	text-align: justify;
+	padding: 15px;
+	padding-bottom: 30px;
+	background-color: rgb(23, 118, 206);
+}
+
+
+#Page
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 250px;
+	
+}
+
+
+#Elements
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 50px;
+	margin-top: -50px;
+}
+
+
+.Image1
+{
+	display: flex;
+	justify-content: center;
+	margin-top: -30px;
+}
+
+
+.Barre
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+#Recherche
+{
+	width: 550px;
+	height: 45px;
+	border-radius: 25px;
+	border-width: 2px;
+	border-color: rgb(233, 230, 233);
+	border-style: solid;
+}
+
+
+.RechercheGoogle
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 90px;
+	margin-top: 15px;
+	border-radius: 10px;
+	border-color: rgb(246, 245, 246);
+	text-align: justify;
+	padding: 15px;
+	padding-bottom: 30px;
+	background-color: rgb(246, 245, 246);
+	font-family: arial, sans-serif;
+}
+
+
+.Chance
+{
+	margin-top: 15px;
+	margin-bottom: 90px;
+	border-radius: 10px;
+	border: 1px solid black;
+	text-align: justify;
+	border-color: rgb(246, 245, 246);
+	padding: 15px;
+	padding-bottom: 30px;
+	background-color: rgb(246, 245, 246);
+	font-family: arial, sans-serif;
+}
+
+
+#Footer1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	height: 40px;
+	margin-top: 150px;
+}
+
+
+#Footer2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 35px;
+	margin-top: 10px;
+}
+
+
+.Foot
+ {
+ 	margin-right: 20px;
+ }
+
+
+.France
+{
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+
+.Foot1
+{
+	margin-top: -10px;
+	margin-right: 15px;
+	margin-left: -15px;
+}
+
+
+.Foot2
+{
+	margin-top: -60px;
+	margin-left: 15px;
+}
+
+
+#param
+{margin-top: 30px;
+	margin-bottom: 30px;
+	margin-bottom: 30px;
+}
